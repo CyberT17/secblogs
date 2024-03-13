@@ -1,0 +1,70 @@
+[
+	{
+		"name": "CrowdStrike",
+		"rss": "https://www.crowdstrike.com/blog/feed/"
+	},
+	{
+		"name": "Krebs on Security",
+		"rss": "https://krebsonsecurity.com/feed/"
+	},
+	{
+		"name": "Bleeping Computer",
+		"rss": "https://www.bleepingcomputer.com/feed/"
+	},
+	{
+		"name": "Troy Hunt",
+		"rss": "https://feeds.feedburner.com/TroyHunt"
+	},
+	{
+		"name": "Microsoft Security",
+		"rss": "https://www.microsoft.com/en-us/security/blog/feed/"
+	},
+	{
+		"name": "Google Safety & Security",
+		"rss": "https://blog.google/technology/safety-security/rss"
+	},
+	{
+		"name": "Meta Security",
+		"rss": "https://code.facebook.com/posts/rss/"
+	},
+	{
+		"name": "Amazon Security",
+		"rss": "https://aws.amazon.com/blogs/security/feed/"
+	},
+	{
+		"name": "SentinelOne",
+		"rss": "https://www.sentinelone.com/feed/"
+	},
+	{
+		"name": "Snyk",
+		"rss": "https://snyk.io/blog/feed/"
+	},
+	{
+		"name": "Veracode",
+		"rss": "https://www.veracode.com/blog/feed"
+	},
+	{
+		"name": "PortSwigger",
+		"rss": "https://portswigger.net/research/rss"
+	},
+	{
+		"name": "Cloudflare",
+		"rss": "https://blog.cloudflare.com/rss"
+	},
+	{
+		"name": "Fastly",
+		"rss": "https://www.fastly.com/blog_rss.xml"
+	},
+	{
+		"name": "Schneier on Security",
+		"rss": "https://www.schneier.com/feed/atom"
+	},
+	{
+		"name": "CSO Online",
+		"rss": "https://www.csoonline.com/feed/"
+	},
+	{
+		"name": "Dark Reading",
+		"rss": "https://www.darkreading.com/rss.xml"
+	}
+]
