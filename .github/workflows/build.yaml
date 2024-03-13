@@ -3,6 +3,7 @@ run-name: Build ${{ github.run_number }} for secblogs
 on: [push]
 jobs:
   build-html-file:
+    if: false
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
