@@ -40,5 +40,4 @@ go.work
 .history
 .ionide
 
-dist/
-index.html
+dist/index.html
