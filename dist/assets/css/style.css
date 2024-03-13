@@ -379,3 +379,7 @@ a {
 	background-size: 10px 1px; /* Size of the dashes */
 	background-repeat: repeat-x; /* Repeat the background image */
 }
+
+.footer {
+	text-align: center;
+}
