@@ -6,6 +6,7 @@ import (
 	"html/template"
 	"os"
 	"sort"
+	"strconv"
 	"sync"
 	"time"
 
@@ -20,8 +21,13 @@ type Blogs struct {
 }
 
 type DateBlogs struct {
-	Date string
+	Date  string
 	Blogs []Blogs
+}
+
+type HtmlValues struct {
+	NumFeeds  string
+	DateBlogs []DateBlogs
 }
 
 type RssFeed struct {
@@ -42,10 +48,16 @@ func main() {
 	readRssFeeds()
 }
 
-func generateHtmlFile(event []DateBlogs) {
+func generateHtmlFile(event HtmlValues) {
 	tmplt, _ = template.ParseFiles("index.gohtml")
 
-	var f, _ = os.Create("index.html")
+	var f *os.File
+	if _, err := os.Stat("dist/"); err != nil {
+		if os.IsNotExist(err) {
+			os.Mkdir("dist/", os.ModeDir)
+		}
+	}
+	f, _ = os.Create("dist/index.html")
 
 	err := tmplt.Execute(f, event)
 	check(err)
@@ -65,7 +77,6 @@ func readRssFeeds() {
 	m := make(map[string][]Blogs)
 
 	feedsLength := len(feeds)
-
 	var wg sync.WaitGroup
 	wg.Add(feedsLength)
 
@@ -106,7 +117,7 @@ func readRssFeeds() {
 	var daten []DateBlogs
 	for key, val := range m {
 		singleDateBlog := DateBlogs{
-			Date: key,
+			Date:  key,
 			Blogs: val,
 		}
 		daten = append(daten, singleDateBlog)
@@ -114,5 +125,9 @@ func readRssFeeds() {
 	sort.Slice(daten, func(i, j int) bool {
 		return daten[i].Date > daten[j].Date
 	})
-	generateHtmlFile(daten)
+	htmlValues := HtmlValues{
+		NumFeeds:  strconv.Itoa(feedsLength),
+		DateBlogs: daten,
+	}
+	generateHtmlFile(htmlValues)
 }

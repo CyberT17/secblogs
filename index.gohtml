@@ -12,15 +12,15 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
   <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico">
 
-  <title>XXX Security Blogs</title>
+  <title>{{ .NumFeeds }} Security Blogs</title>
   <meta name="generator" content="Jekyll v3.9.3" />
   <meta property="og:title" content="Security Blogs" />
   <meta property="og:locale" content="en_US" />
-  <meta name="description" content="XXX Security Blogs News Feed" />
-  <meta property="og:description" content="XXX Security Blogs News Feed" />
+  <meta name="description" content="{{ .NumFeeds }} Security Blogs News Feed" />
+  <meta property="og:description" content="{{ .NumFeeds }} Security Blogs News Feed" />
   <link rel="canonical" href="https://pages-themes.github.io/hacker/" />
   <meta property="og:url" content="https://pages-themes.github.io/hacker/" />
-  <meta property="og:site_name" content="XXX Security Blogs" />
+  <meta property="og:site_name" content="{{ .NumFeeds }} Security Blogs" />
   <meta property="og:type" content="website" />
 </head>
 
@@ -29,18 +29,20 @@
     <div class="container">
       <a id="a-title" href="/hacker/">
         <!-- Add a count for number of blogs -->
-        <h1>XXX Security Blogs</h1>
+        <h1>{{ .NumFeeds }} Security Blogs</h1>
       </a>
-      <h2>Hacker is a theme for GitHub Pages.</h2>
+      <br>
+      <br>
+      <br>
     </div>
   </header>
 
   <div class="container">
     <section id="main_content">
-      {{ range .}}
+      {{ range .DateBlogs}}
       <div class="items">
         <h2>{{ .Date }}</h2>
-        {{ range .News }}
+        {{ range .Blogs }}
         <div class="text-with-dashes">
           <span>{{ .Blog }}</span>
           <div class="dashes"></div>
