@@ -76,6 +76,8 @@ func readRssFeeds() {
 
 	m := make(map[string][]Blogs)
 
+	cutoff := time.Now().AddDate(0, 0, -7)
+
 	feedsLength := len(feeds)
 	var wg sync.WaitGroup
 	wg.Add(feedsLength)
@@ -83,16 +85,17 @@ func readRssFeeds() {
 	for _, site := range feeds {
 		go func(site RssFeed) {
 			defer wg.Done()
-			fmt.Println("Getting blogs for " + site.NAME)
+
 			feed, _ := gofeed.NewParser().ParseURL(site.RSS)
 			if feed == nil {
 				fmt.Println("Couldn't fetch blogs for " + site.NAME)
 				return
 			}
 			for _, item := range feed.Items {
-				if item.PublishedParsed == nil {
+				if item.PublishedParsed == nil || !item.PublishedParsed.After(cutoff) {
 					continue
 				}
+
 				var dateStr = item.PublishedParsed.Format(time.DateOnly)
 
 				singleBlog := Blogs{
