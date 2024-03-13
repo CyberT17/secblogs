@@ -41,3 +41,4 @@ go.work
 .ionide
 
 dist/
+index.html
