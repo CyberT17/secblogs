@@ -26,8 +26,9 @@ type DateBlogs struct {
 }
 
 type HtmlValues struct {
-	NumFeeds  string
-	DateBlogs []DateBlogs
+	NumFeeds    string
+	LastUpdated string
+	DateBlogs   []DateBlogs
 }
 
 type RssFeed struct {
@@ -86,7 +87,12 @@ func readRssFeeds() {
 		go func(site RssFeed) {
 			defer wg.Done()
 
-			feed, _ := gofeed.NewParser().ParseURL(site.RSS)
+			feed, err := gofeed.NewParser().ParseURL(site.RSS)
+			if err != nil {
+				fmt.Println(err)
+				return
+			}
+
 			if feed == nil {
 				fmt.Println("Couldn't fetch blogs for " + site.NAME)
 				return
@@ -128,9 +134,13 @@ func readRssFeeds() {
 	sort.Slice(daten, func(i, j int) bool {
 		return daten[i].Date > daten[j].Date
 	})
+
+	utcTime := time.Now().UTC().Format(time.RFC822)
+
 	htmlValues := HtmlValues{
-		NumFeeds:  strconv.Itoa(feedsLength),
-		DateBlogs: daten,
+		NumFeeds:    strconv.Itoa(feedsLength),
+		LastUpdated: utcTime,
+		DateBlogs:   daten,
 	}
 	generateHtmlFile(htmlValues)
 }
