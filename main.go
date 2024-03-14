@@ -86,6 +86,8 @@ func readRssFeeds() {
 	for _, site := range feeds {
 		go func(site RssFeed) {
 			defer wg.Done()
+			parser := gofeed.NewParser()
+			parser.UserAgent = "securityblogs.xyzBot"
 
 			feed, err := gofeed.NewParser().ParseURL(site.RSS)
 			if err != nil {
