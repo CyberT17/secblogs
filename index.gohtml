@@ -58,7 +58,24 @@
         <span><a href="https://github.com/CyberT17/secblogs/" target="_blank">Github</a></span>
       </footer>
       <br>
+    <button onclick="topFunction()" id="top-link" title="Go to top" aria-label="Go to top"></button>
   </div>
+  <script>
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        document.getElementById("top-link").style.display = "block";
+      } else {
+        document.getElementById("top-link").style.display = "none";
+      }
+    }
+
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+    }
+  </script>
 </body>
 
 </html>
