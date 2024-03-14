@@ -1,7 +1,10 @@
 # Security Blogs News Feed
 
-As deployed at https://securityblogs.xyz/
+<https://securityblogs.xyz/>
 
-Feel free to suggest more worthwhile engineering blogs by opening an issue. Not all will be accepted but all submissions appreciated nonetheless. Be sure to include the blog URL *and* feed URL (important as not all of you make this obvious on the page) :-)
+Simple news feed containing last 7 days worth of blog posts from various security blogs
 
+Raise an issue to suggest a Security Blog.
+
+\
 Inspired by [engineering blogs](https://engineeringblogs.xyz/)
