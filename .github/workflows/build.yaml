@@ -1,14 +1,29 @@
 name: github-actions-build-plan
 run-name: Build ${{ github.run_number }} for secblogs
-on: 
+on:
   schedule:
-   - cron: "*/30 * * * *" # Every 30 min
+    - cron: "*/30 * * * *" # Every 30 min
 jobs:
-  build-html-file:
+  publish:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      deployments: write
+    name: Publish to Cloudflare Pages
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
       - uses: actions/setup-go@v5
         with:
           go-version-file: "go.mod"
       - run: go run main.go
+
+      - name: Publish to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: secblogs
+          directory: dist/
+          branch: main
+          wranglerVersion: "3"
