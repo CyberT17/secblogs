@@ -70,5 +70,9 @@
 	{
 		"name": "Ars Technica Security",
 		"rss": "https://arstechnica.com/security/rss"
+	},
+	{
+		"name": "Malwarebytes",
+		"rss": "https://www.malwarebytes.com/blog/feed/index.xml"
 	}
 ]
