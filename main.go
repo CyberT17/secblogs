@@ -90,15 +90,11 @@ func readRssFeeds() {
 			parser.UserAgent = "securityblogs.xyzBot"
 
 			feed, err := gofeed.NewParser().ParseURL(site.RSS)
-			if err != nil {
-				fmt.Println(err)
-				return
-			}
-
-			if feed == nil {
+			if err != nil || feed == nil {
 				fmt.Println("Couldn't fetch blogs for " + site.NAME)
 				return
 			}
+			
 			for _, item := range feed.Items {
 				if item.PublishedParsed == nil || !item.PublishedParsed.After(cutoff) {
 					continue
