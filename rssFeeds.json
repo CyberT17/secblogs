@@ -66,5 +66,9 @@
 	{
 		"name": "Dark Reading",
 		"rss": "https://www.darkreading.com/rss.xml"
+	},
+	{
+		"name": "Ars Technica",
+		"rss": "https://arstechnica.com/security/rss"
 	}
 ]
