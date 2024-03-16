@@ -82,5 +82,9 @@
 	{
 		"name": "Wired Security",
 		"rss": "https://www.wired.com/feed/category/security/latest/rss"
+	},
+	{
+		"name": "Trail of Bits",
+		"rss": "https://blog.trailofbits.com/feed/"
 	}
 ]
