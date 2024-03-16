@@ -78,5 +78,9 @@
 	{
 		"name": "Google Security Blog",
 		"rss": "https://googleonlinesecurity.blogspot.com/atom.xml"
+	},
+	{
+		"name": "Wired Security",
+		"rss": "https://www.wired.com/feed/category/security/latest/rss"
 	}
 ]
