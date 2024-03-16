@@ -74,5 +74,9 @@
 	{
 		"name": "Malwarebytes",
 		"rss": "https://www.malwarebytes.com/blog/feed/index.xml"
+	},
+	{
+		"name": "Google Security Blog",
+		"rss": "https://googleonlinesecurity.blogspot.com/atom.xml"
 	}
 ]
