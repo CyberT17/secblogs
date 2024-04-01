@@ -86,5 +86,9 @@
 	{
 		"name": "Trail of Bits",
 		"rss": "https://blog.trailofbits.com/feed/"
+	},
+	{
+		"name": "OWASP",
+		"rss": "https://owasp.org/rss.xml"
 	}
 ]
