@@ -4,6 +4,8 @@
   - The `Dates` in `daten` struct currently is not sorted, this causes the resulting index.html to be displayed in random order.
 - [x] Add more blogs sources
 - [ ] Add better error handling
+- [ ] Can we maintain order of blogs on the page
+  - Right now every time the go code is run order in which the blogs are listed on the page changes. Could we somehow maintain the order? Is this due to concurrency?
 
 ## Future Features
 
