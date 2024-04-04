@@ -90,5 +90,13 @@
 	{
 		"name": "OWASP",
 		"rss": "https://owasp.org/rss.xml"
+	},
+	{
+		"name": "Bad Privacy",
+		"rss": "https://medium.com/feed/@badprivacy"
+	},
+	{
+		"name": "Bad Security",
+		"rss": "https://badsecurity.ca/rss"
 	}
 ]
