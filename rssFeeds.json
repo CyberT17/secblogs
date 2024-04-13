@@ -98,5 +98,9 @@
 	{
 		"name": "Bad Security",
 		"rss": "https://badsecurity.ca/rss"
+	},
+	{
+		"name": "Auth0",
+		"rss": "https://auth0.com/blog/rss.xml"
 	}
 ]
