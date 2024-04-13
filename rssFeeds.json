@@ -8,10 +8,6 @@
 		"rss": "https://krebsonsecurity.com/feed/"
 	},
 	{
-		"name": "Bleeping Computer",
-		"rss": "https://www.bleepingcomputer.com/feed/"
-	},
-	{
 		"name": "Troy Hunt",
 		"rss": "https://feeds.feedburner.com/TroyHunt"
 	},
@@ -58,10 +54,6 @@
 	{
 		"name": "Schneier on Security",
 		"rss": "https://www.schneier.com/feed/atom"
-	},
-	{
-		"name": "CSO Online",
-		"rss": "https://www.csoonline.com/feed/"
 	},
 	{
 		"name": "Dark Reading",
