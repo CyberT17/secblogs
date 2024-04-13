@@ -102,5 +102,9 @@
 	{
 		"name": "Auth0",
 		"rss": "https://auth0.com/blog/rss.xml"
+	},
+	{
+		"name": "Okta Security",
+		"rss": "https://sec.okta.com/rss.xml"
 	}
 ]
