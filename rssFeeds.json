@@ -118,5 +118,9 @@
 	{
 		"name": "Rapid7",
 		"rss": "https://blog.rapid7.com/rss/"
+	},
+	{
+		"name": "Offensive Security",
+		"rss": "https://www.offsec.com/blog/feed"
 	}
 ]
