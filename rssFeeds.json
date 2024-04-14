@@ -106,5 +106,9 @@
 	{
 		"name": "Mozilla Security",
 		"rss": "https://blog.mozilla.org/security/feed/"
+	},
+	{
+		"name": "HackerOne",
+		"rss": "https://www.hackerone.com/blog.rss"
 	}
 ]
