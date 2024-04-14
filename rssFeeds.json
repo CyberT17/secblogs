@@ -98,5 +98,9 @@
 	{
 		"name": "Okta Security",
 		"rss": "https://sec.okta.com/rss.xml"
+	},
+	{
+		"name": "Palo Alto Networks",
+		"rss": "https://www.paloaltonetworks.com/blog/feed"
 	}
 ]
