@@ -110,5 +110,9 @@
 	{
 		"name": "HackerOne",
 		"rss": "https://www.hackerone.com/blog.rss"
+	},
+	{
+		"name": "Bugcrowd",
+		"rss": "https://www.bugcrowd.com/feed/"
 	}
 ]
