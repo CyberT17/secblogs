@@ -1,6 +1,9 @@
 name: github-actions-build-plan
 run-name: Build ${{ github.run_number }} for secblogs
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: "*/30 * * * *" # Every 30 min
 jobs:
