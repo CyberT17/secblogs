@@ -114,5 +114,9 @@
 	{
 		"name": "Bugcrowd",
 		"rss": "https://www.bugcrowd.com/feed/"
+	},
+	{
+		"name": "Rapid7",
+		"rss": "https://blog.rapid7.com/rss/"
 	}
 ]
