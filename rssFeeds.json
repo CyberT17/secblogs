@@ -122,5 +122,9 @@
 	{
 		"name": "Offensive Security",
 		"rss": "https://www.offsec.com/blog/feed"
+	},
+	{
+		"name": "Mend",
+		"rss": "https://www.mend.io/feed/"
 	}
 ]
