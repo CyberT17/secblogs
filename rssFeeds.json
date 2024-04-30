@@ -134,5 +134,9 @@
 	{
 		"name": "CrankySec",
 		"rss": "https://crankysec.com/feed/feed.xml/"
+	},
+	{
+		"name": "The Citizen Lab",
+		"rss": "https://citizenlab.ca/feed/"
 	}
 ]
