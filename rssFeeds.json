@@ -130,5 +130,9 @@
 	{
 		"name": "Lutra Security",
 		"rss": "https://lutrasecurity.com/en/articles/index.xml/"
+	},
+	{
+		"name": "CrankySec",
+		"rss": "https://crankysec.com/feed/feed.xml/"
 	}
 ]
