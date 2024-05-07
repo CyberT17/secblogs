@@ -138,5 +138,9 @@
 	{
 		"name": "The Citizen Lab",
 		"rss": "https://citizenlab.ca/feed/"
+	},
+	{
+		"name": "Leviathan Security",
+		"rss": "https://www.leviathansecurity.com/blog?format=rss"
 	}
 ]
