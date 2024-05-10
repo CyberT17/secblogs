@@ -146,5 +146,9 @@
 	{
 		"name": "Security Cafe",
 		"rss": "https://securitycafe.ro/feed/"
+	},
+	{
+		"name": "RAM - Security Insights",
+		"rss": "https://rss.beehiiv.com/feeds/DQvkmu1aWQ.xml"
 	}
 ]
