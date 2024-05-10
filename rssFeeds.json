@@ -142,5 +142,9 @@
 	{
 		"name": "Leviathan Security",
 		"rss": "https://www.leviathansecurity.com/blog?format=rss"
+	},
+	{
+		"name": "Security Cafe",
+		"rss": "https://securitycafe.ro/feed/"
 	}
 ]
