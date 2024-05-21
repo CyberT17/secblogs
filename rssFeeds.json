@@ -150,5 +150,9 @@
 	{
 		"name": "RAM - Security Insights",
 		"rss": "https://rss.beehiiv.com/feeds/DQvkmu1aWQ.xml"
+	},
+	{
+		"name": "Sicuranext Blog",
+		"rss": "https://blog.sicuranext.com/rss/"
 	}
 ]
