@@ -158,5 +158,9 @@
 	{
 		"name": "Bishop Fox Security",
 		"rss": "https://bishopfox.com/feeds/blog.rss/"
+	},
+	{
+		"name": "Datadog HQ",
+		"rss": "https://www.datadoghq.com/blog/index.xml"
 	}
 ]
