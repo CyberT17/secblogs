@@ -162,5 +162,9 @@
 	{
 		"name": "Datadog HQ",
 		"rss": "https://www.datadoghq.com/blog/index.xml"
+	},
+	{
+		"name": "Hunt and Hackett",
+		"rss": "https://www.huntandhackett.com/blog/rss.xml"
 	}
 ]
