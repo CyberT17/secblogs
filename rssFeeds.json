@@ -170,5 +170,9 @@
 	{
 		"name": "Semantically Secure",
 		"rss": "https://scottarc.blog/feed/"
+	},
+	{
+		"name": "Rezonate",
+		"rss": "https://www.rezonate.io/feed/"
 	}
 ]
