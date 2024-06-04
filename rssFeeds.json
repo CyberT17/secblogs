@@ -174,5 +174,9 @@
 	{
 		"name": "Rezonate",
 		"rss": "https://www.rezonate.io/feed/"
+	},
+	{
+		"name": "io::pewpew()",
+		"rss": "https://0xbigshaq.github.io/feed.xml"
 	}
 ]
