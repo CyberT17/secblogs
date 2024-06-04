@@ -162,5 +162,9 @@
 	{
 		"name": "Hunt and Hackett",
 		"rss": "https://www.huntandhackett.com/blog/rss.xml"
+	},
+	{
+		"name": "Sam Curry",
+		"rss": "https://samcurry.net/feed.rss"
 	}
 ]
