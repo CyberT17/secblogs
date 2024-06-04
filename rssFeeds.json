@@ -166,5 +166,9 @@
 	{
 		"name": "Sam Curry",
 		"rss": "https://samcurry.net/feed.rss"
+	},
+	{
+		"name": "Semantically Secure",
+		"rss": "https://scottarc.blog/feed/"
 	}
 ]
