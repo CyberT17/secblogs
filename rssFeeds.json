@@ -178,5 +178,9 @@
 	{
 		"name": "io::pewpew()",
 		"rss": "https://0xbigshaq.github.io/feed.xml"
+	},
+	{
+		"name": "Sansec Threat Research",
+		"rss": "https://sansec.io/atom.xml"
 	}
 ]
