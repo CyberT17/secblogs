@@ -182,5 +182,9 @@
 	{
 		"name": "Sansec Threat Research",
 		"rss": "https://sansec.io/atom.xml"
+	},
+	{
+		"name": "Kevin Patel Blog",
+		"rss": "https://kevinpatel.xyz/posts/index.xml"
 	}
 ]
