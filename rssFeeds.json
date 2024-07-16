@@ -178,5 +178,9 @@
 	{
 		"name": "io::pewpew()",
 		"rss": "https://0xbigshaq.github.io/feed.xml"
+	},
+	{
+		"name": "Conduition",
+		"rss": "https://conduition.io/rss2.xml"
 	}
 ]
