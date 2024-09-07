@@ -194,5 +194,9 @@
 	{
 		"name": "Redteam-Pentesting.de",
 		"rss": "https://blog.redteam-pentesting.de/posts/index.xml"
+	},
+	{
+		"name": "Wietze Beukema",
+		"rss": "https://www.wietzebeukema.nl/blog/feed.xml"
 	}
 ]
