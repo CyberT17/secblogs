@@ -190,5 +190,9 @@
 	{
 		"name": "Conduition",
 		"rss": "https://conduition.io/rss2.xml"
+	},
+	{
+		"name": "Redteam-Pentesting.de",
+		"rss": "https://blog.redteam-pentesting.de/posts/index.xml"
 	}
 ]
