@@ -1,4 +1,4 @@
-module example/secblogs
+module kevinpatel.xyz/secblogs
 
 go 1.21.5
 
