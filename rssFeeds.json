@@ -108,16 +108,12 @@
 		"rss": "https://www.hackerone.com/blog.rss"
 	},
 	{
-		"name": "Bugcrowd",
-		"rss": "https://www.bugcrowd.com/blog/feed/"
-	},
-	{
 		"name": "Rapid7",
 		"rss": "https://blog.rapid7.com/rss/"
 	},
 	{
 		"name": "Offensive Security",
-		"rss": "https://www.offsec.com/blog/feed"
+		"rss": "https://www.offsec.com/feed"
 	},
 	{
 		"name": "Mend",
@@ -198,5 +194,209 @@
 	{
 		"name": "Wietze Beukema",
 		"rss": "https://www.wietzebeukema.nl/blog/feed.xml"
+	},
+	{
+		"name": "itm4n's Blog",
+		"rss": "https://itm4n.github.io/feed.xml"
+	},
+	{
+		"name": "White Knight Labs",
+		"rss": "https://whiteknightlabs.com/feed/"
+	},
+	{
+		"name": "Zavier's Blog",
+		"rss": "https://gatari.dev/feed.xml"
+	},
+	{
+		"name": "Matteo Malvica's Blog",
+		"rss": "https://www.matteomalvica.com/index.xml"
+	},
+	{
+		"name": "Retooling_",
+		"rss": "https://retooling.io/blog?format=rss"
+	},
+	{
+		"name": "Embee Research",
+		"rss": "https://www.embeeresearch.io/rss/"
+	},
+	{
+		"name": "Keowu Blog's",
+		"rss": "https://keowu.re/feed.xml"
+	},
+	{
+		"name": "Synacktiv",
+		"rss": "https://www.synacktiv.com/en/feed/lastblog.xml"
+	},
+	{
+		"name": "Android Offensive Security Blog",
+		"rss": "https://androidoffsec.withgoogle.com/index.xml"
+	},
+	{
+		"name": "Meta Red Team",
+		"rss": "https://rtx.meta.security/feed.xml"
+	},
+	{
+		"name": "Courk's Blog",
+		"rss": "https://courk.cc/feeds/all.atom.xml"
+	},
+	{
+		"name": "MalwareTech",
+		"rss": "https://malwaretech.com/feed.xml"
+	},
+	{
+		"name": "watchTowr Labs",
+		"rss": "https://labs.watchtowr.com/rss/"
+	},
+	{
+		"name": "Nettitude Labs",
+		"rss": "https://labs.nettitude.com/feed/"
+	},
+	{
+		"name": "jmpr4xp4x's blog",
+		"rss": "https://www.jmpr4xp4x.io/feed.xml/"
+	},
+	{
+		"name": "NVISO Labs",
+		"rss": "https://blog.nviso.eu/feed/"
+	},
+	{
+		"name": "Talos Intelligence",
+		"rss": "https://blog.talosintelligence.com/rss/"
+	},
+	{
+		"name": "IOActive Labs",
+		"rss": "https://labs.ioactive.com/feeds/posts/default"
+	},
+	{
+		"name": "MaskRay's Blog",
+		"rss": "https://maskray.me/blog/atom.xml"
+	},
+	{
+		"name": "Theori Vulnerability Research",
+		"rss": "https://medium.com/feed/@vr-blog"
+	},
+	{
+		"name": "Eclypsium",
+		"rss": "https://eclypsium.com/feed/"
+	},
+	{
+		"name": "Pwning Tech",
+		"rss": "https://pwning.tech/rss/"
+	},
+	{
+		"name": "Github Security Blog",
+		"rss": "https://github.blog/security/feed/"
+	},
+	{
+		"name": "Protexity",
+		"rss": "https://www.protexity.com/blog-feed.xml"
+	},
+	{
+		"name": "Exodus Blog",
+		"rss": "https://blog.exodusintel.com/feed/"
+	},
+	{
+		"name": "Red Siege InfoSec Blog",
+		"rss": "http://redsiege.com/blog/feed"
+	},
+	{
+		"name": "Satoshi's Blog",
+		"rss": "https://tandasat.github.io/blog/feed.xml"
+	},
+	{
+		"name": "Shielder Blog",
+		"rss": "https://www.shielder.com/blog/index.xml"
+	},
+	{
+		"name": "Ambionics Security Blog",
+		"rss": "https://www.ambionics.io/feeds/all.rss.xml"
+	},
+	{
+		"name": "Voidstar Security Research Blog",
+		"rss": "https://voidstarsec.com/blog/feed.xml"
+	},
+	{
+		"name": "Daniel Plohmann's Blog",
+		"rss": "https://danielplohmann.github.io/feed.xml"
+	},
+	{
+		"name": "Compass Security Blog",
+		"rss": "https://blog.compass-security.com/feed/"
+	},
+	{
+		"name": "5pider's Blog",
+		"rss": "https://5pider.net/blog/rss.xml"
+	},
+	{
+		"name": "Shindan",
+		"rss": "https://shindan.io/posts/index.xml"
+	},
+	{
+		"name": "clearbluejar's Blog",
+		"rss": "https://clearbluejar.github.io/feed.xml"
+	},
+	{
+		"name": "Arch Cloud Labs",
+		"rss": "https://www.archcloudlabs.com/projects/index.xml"
+	},
+	{
+		"name": "0ffset's Blog",
+		"rss": "https://www.0ffset.net/feed/"
+	},
+	{
+		"name": "Sami Alaoui's Blog",
+		"rss": "https://0x44.cc/feed.xml"
+	},
+	{
+		"name": "Arkadiy Tetelman's Blog",
+		"rss": "https://arkadiyt.com/atom.xml"
+	},
+	{
+		"name": "Star Labs",
+		"rss": "https://starlabs.sg/blog/index.xml"
+	},
+	{
+		"name": "Bored Pentester",
+		"rss": "https://boredpentester.com/feed/"
+	},
+	{
+		"name": "Dark Navy",
+		"rss": "https://www.darknavy.org/blog/index.xml"
+	},
+	{
+		"name": "Grsecurity Blog",
+		"rss": "https://grsecurity.net/blog.rss"
+	},
+	{
+		"name": "Boschko Security Blog",
+		"rss": "https://boschko.ca/rss/"
+	},
+	{
+		"name": "Adepts of 0xCC",
+		"rss": "https://adepts.of0x.cc/feed.xml"
+	},
+	{
+		"name": "Timddg's Blog",
+		"rss": "https://www.timdbg.com/index.xml"
+	},
+	{
+		"name": "Cyber Geeks",
+		"rss": "https://cybergeeks.tech/feed/"
+	},
+	{
+		"name": "Zero Day Initiative",
+		"rss": "https://www.zerodayinitiative.com/blog/?format=rss"
+	},
+	{
+		"name": "Atredis Partners",
+		"rss": "https://www.atredis.com/blog?format=rss"
+	},
+	{
+		"name": "Claroty",
+		"rss": "https://claroty.com/team82/disclosure-dashboard/feed"
+	},
+	{
+		"name": "Reversing Engineering for the Soul",
+		"rss": "https://ctf.re/feed.xml"
 	}
 ]
