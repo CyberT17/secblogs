@@ -91,7 +91,9 @@ func readRssFeeds() {
 
 			feed, err := gofeed.NewParser().ParseURL(site.RSS)
 			if err != nil || feed == nil {
-				fmt.Println("Couldn't fetch blogs for " + site.NAME)
+				fmt.Print("Couldn't fetch blogs for " + site.NAME + " [")
+				fmt.Print(err)
+				fmt.Println("]")
 				return
 			}
 			
