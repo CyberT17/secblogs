@@ -253,7 +253,7 @@
 	},
 	{
 		"name": "jmpr4xp4x's blog",
-		"rss": "https://www.jmpr4xp4x.io/feed.xml/"
+		"rss": "https://www.jmpr4xp4x.io/feed.xml"
 	},
 	{
 		"name": "NVISO Labs",
@@ -357,7 +357,7 @@
 	},
 	{
 		"name": "Bored Pentester",
-		"rss": "https://boredpentester.com/feed/"
+		"rss": "https://boredpentester.com/feed?format=rss"
 	},
 	{
 		"name": "Dark Navy",
