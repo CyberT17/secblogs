@@ -398,5 +398,9 @@
 	{
 		"name": "Reversing Engineering for the Soul",
 		"rss": "https://ctf.re/feed.xml"
+	},
+	{
+		"name": "EvilSocket",
+		"rss": "https://www.evilsocket.net/atom.xml"
 	}
 ]
