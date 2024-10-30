@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"encoding/xml"
 	"fmt"
 	"html/template"
 	"os"
@@ -96,7 +97,7 @@ func readRssFeeds() {
 				fmt.Println("]")
 				return
 			}
-			
+
 			for _, item := range feed.Items {
 				if item.PublishedParsed == nil || !item.PublishedParsed.After(cutoff) {
 					continue
@@ -143,4 +144,67 @@ func readRssFeeds() {
 		DateBlogs:   daten,
 	}
 	generateHtmlFile(htmlValues)
+	createOpml(feeds)
+}
+
+type OPML struct {
+	XMLName xml.Name `xml:"opml"`
+	Version string   `xml:"version,attr"`
+	Head    Head     `xml:"head"`
+	Body    Body     `xml:"body"`
+}
+
+type Head struct {
+	Title string `xml:"title"`
+}
+
+type Body struct {
+	Outline []Outline `xml:"outline"`
+}
+
+type Outline struct {
+	Text string `xml:"text,attr"`
+	Type string `xml:"type,attr"`
+	XML  string `xml:"xmlUrl,attr"`
+}
+
+func createOpml(feeds []RssFeed) {
+	var title = strconv.Itoa(len(feeds)) + " Security Blogs - securityblogs.xyz"
+
+	opml := OPML{
+		Version: "1.0",
+		Head: Head{
+			Title: title,
+		},
+		Body: Body{
+			Outline: make([]Outline, len(feeds)),
+		},
+	}
+
+	for i, feed := range feeds {
+		opml.Body.Outline[i] = Outline{
+			Text: feed.NAME,
+			Type: "rss",
+			XML:  feed.RSS,
+		}
+	}
+
+	if _, err := os.Stat("dist/"); err != nil {
+		if os.IsNotExist(err) {
+			os.Mkdir("dist/", os.ModeDir)
+		}
+	}
+	opmlFile, err := os.Create("dist/securityblogs.opml")
+
+	check(err)
+	defer opmlFile.Close()
+
+	encoder := xml.NewEncoder(opmlFile)
+	encoder.Indent("", "  ")
+	if err := encoder.Encode(opml); err != nil {
+		fmt.Println(err)
+		return
+	}
+
+	fmt.Println("OPML file created successfully.")
 }
