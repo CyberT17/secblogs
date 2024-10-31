@@ -402,5 +402,45 @@
 	{
 		"name": "EvilSocket",
 		"rss": "https://www.evilsocket.net/atom.xml"
+	},
+	{
+		"name": "Embrace The Red",
+		"rss": "https://embracethered.com/blog/index.xml"
+	},
+	{
+		"name": "Apple Security Research",
+		"rss": "https://security.apple.com/blog/feed.rss"
+	},
+	{
+		"name": "Moblig",
+		"rss": "https://medium.com/feed/@moblig"
+	},
+	{
+		"name": "TrustedSec",
+		"rss": "https://trustedsec.com/feed.rss"
+	},
+	{
+		"name": "Kevin Beaumont",
+		"rss": "https://medium.com/feed/@networksecurity"
+	},
+	{
+		"name": "Infernux Blog",
+		"rss": "https://www.infernux.no/feed.xml"
+	},
+	{
+		"name": "SpiderLabs",
+		"rss": "https://www.trustwave.com/en-us/resources/blogs/spiderlabs-blog/rss.xml"
+	},
+	{
+		"name": "Sabotage Sec Blog",
+		"rss": "https://sabotagesec.com/feed/"
+	},
+	{
+		"name": "Elastic Security Labs",
+		"rss": "https://www.elastic.co/security-labs/rss/feed.xml"
+	},
+	{
+		"name": "Katie Knowles",
+		"rss": "https://kknowl.es/feed.xml"
 	}
 ]
