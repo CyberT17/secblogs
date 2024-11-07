@@ -442,5 +442,9 @@
 	{
 		"name": "Katie Knowles",
 		"rss": "https://kknowl.es/feed.xml"
+	},
+	{
+		"name": "Sicuranext Blog",
+		"rss": "https://blog.sicuranext.com/rss/"
 	}
 ]
