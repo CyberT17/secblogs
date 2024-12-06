@@ -454,5 +454,9 @@
 	{
 		"name": "Moonlock",
 		"rss": "https://moonlock.com/feed/"
+	},
+	{
+		"name": "Binary Security",
+		"rss": "https://www.binarysecurity.no/feed.xml/"
 	}
 ]
