@@ -450,5 +450,9 @@
 	{
 		"name": "PT Swarm",
 		"rss": "https://swarm.ptsecurity.com/feed/"
+	},
+	{
+		"name": "Moonlock",
+		"rss": "https://moonlock.com/feed/"
 	}
 ]
