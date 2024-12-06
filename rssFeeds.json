@@ -446,5 +446,9 @@
 	{
 		"name": "Sicuranext Blog",
 		"rss": "https://blog.sicuranext.com/rss/"
+	},
+	{
+		"name": "PT Swarm",
+		"rss": "https://swarm.ptsecurity.com/feed/"
 	}
 ]
