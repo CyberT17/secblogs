@@ -170,12 +170,7 @@
 	{
 		"name": "Rezonate",
 		"rss": "https://www.rezonate.io/feed/"
-	},
-	{
-		"name": "io::pewpew()",
-		"rss": "https://0xbigshaq.github.io/feed.xml"
-	},
-	{
+	}	{
 		"name": "Sansec Threat Research",
 		"rss": "https://sansec.io/atom.xml"
 	},
@@ -253,7 +248,7 @@
 	},
 	{
 		"name": "jmpr4xp4x's blog",
-		"rss": "https://www.jmpr4xp4x.io/feed.xml"
+		"rss": "https://jmpr4xp4x.io/feed.xml"
 	},
 	{
 		"name": "NVISO Labs",
@@ -457,6 +452,10 @@
 	},
 	{
 		"name": "Binary Security",
-		"rss": "https://www.binarysecurity.no/feed.xml/"
+		"rss": "https://www.binarysecurity.no/feed.xml"
+	},
+	{
+		"name": "Pwner Blog",
+		"rss": "https://pwner.gg/index.xml"
 	}
 ]
