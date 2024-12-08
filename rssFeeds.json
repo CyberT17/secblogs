@@ -170,7 +170,8 @@
 	{
 		"name": "Rezonate",
 		"rss": "https://www.rezonate.io/feed/"
-	}	{
+	},
+	{
 		"name": "Sansec Threat Research",
 		"rss": "https://sansec.io/atom.xml"
 	},
