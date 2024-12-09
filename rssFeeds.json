@@ -458,5 +458,9 @@
 	{
 		"name": "Pwner Blog",
 		"rss": "https://pwner.gg/index.xml"
+	},
+	{
+		"name": "Flatt Security Research",
+		"rss": "https://flatt.tech/research/index.xml"
 	}
 ]
