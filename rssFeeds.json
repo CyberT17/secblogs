@@ -462,5 +462,9 @@
 	{
 		"name": "Flatt Security Research",
 		"rss": "https://flatt.tech/research/index.xml"
+	},
+	{
+		"name": "Hay Mizrachi",
+		"rss": "https://haymiz.dev/feed.xml"
 	}
 ]
