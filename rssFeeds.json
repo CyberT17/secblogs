@@ -466,5 +466,9 @@
 	{
 		"name": "Hay Mizrachi",
 		"rss": "https://haymiz.dev/feed.xml"
+	},
+	{
+		"name": "Maxwell Dulin",
+		"rss": "https://maxwelldulin.invades.space/blog-rss.xml"
 	}
 ]
