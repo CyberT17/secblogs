@@ -474,5 +474,9 @@
 	{
 		"name": "DarkRelay",
 		"rss": "https://www.darkrelay.com/blog-feed.xml"
+	},
+	{
+		"name": "env.fail",
+		"rss": "https://env.fail/blog.rss"
 	}
 ]
