@@ -478,5 +478,21 @@
 	{
 		"name": "env.fail",
 		"rss": "https://env.fail/blog.rss"
+	},
+	{
+		"name": "Stigward's Blog",
+		"rss": "https://stigward.github.io/feed.xml"
+	},
+	{
+		"name": "Secret.Club",
+		"rss": "https://secret.club/feed.xml"
+	},
+	{
+		"name": "s3cur3th1ssh1t's Blog",
+		"rss": "https://s3cur3th1ssh1t.github.io/feed.xml"
+	},
+	{
+		"name": "XPN's Blog",
+		"rss": "https://blog.xpnsec.com/rss.xml"
 	}
 ]
