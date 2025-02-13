@@ -494,5 +494,9 @@
 	{
 		"name": "XPN's Blog",
 		"rss": "https://blog.xpnsec.com/rss.xml"
+	},
+	{
+		"name": "Searchlight Cyber",
+		"rss": "http://slcyber.io/feed/"
 	}
 ]
