@@ -498,5 +498,9 @@
 	{
 		"name": "Searchlight Cyber",
 		"rss": "http://slcyber.io/feed/"
+	},
+	{
+		"name": "Milton Valencia",
+		"rss": "https://wetw0rk.github.io/"
 	}
 ]
