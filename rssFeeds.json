@@ -506,5 +506,9 @@
 	{
 		"name": "ReversingLabs",
 		"rss": "https://blog.reversinglabs.com/blog/rss.xml"
+	},
+	{
+		"name": "Evan Connelly",
+		"rss": "https://evanconnelly.github.io/post/index.xml"
 	}
 ]
