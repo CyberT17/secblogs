@@ -514,5 +514,9 @@
 	{
 		"name": "Project Black",
 		"rss": "https://projectblack.io/blog/rss/"
+	},
+	{
+		"name": "Praetorian",
+		"rss": "https://www.praetorian.com/feed/"
 	}
 ]
