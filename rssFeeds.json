@@ -510,5 +510,9 @@
 	{
 		"name": "Evan Connelly",
 		"rss": "https://evanconnelly.github.io/post/index.xml"
+	},
+	{
+		"name": "Project Black",
+		"rss": "https://projectblack.io/blog/rss/"
 	}
 ]
