@@ -518,5 +518,9 @@
 	{
 		"name": "Praetorian",
 		"rss": "https://www.praetorian.com/feed/"
+	},
+	{
+		"name": "Black Lantern Security",
+		"rss": "https://blog.blacklanternsecurity.com/feed/"
 	}
 ]
