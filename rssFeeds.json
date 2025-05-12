@@ -524,7 +524,11 @@
 		"rss": "https://blog.blacklanternsecurity.com/feed/"
 	},
 	{
-		"name": "es3n1n's Blog",
+		"name": "es3n1n",
 		"rss": "https://blog.es3n1n.eu/posts/index.xml"
-	}
+	},
+	{
+		"name": "Tim Blazytko",
+		"rss": "https://www.synthesis.to/feed.xml"
+	}	
 ]
