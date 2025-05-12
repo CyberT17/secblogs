@@ -522,5 +522,9 @@
 	{
 		"name": "Black Lantern Security",
 		"rss": "https://blog.blacklanternsecurity.com/feed/"
+	},
+	{
+		"name": "es3n1n's Blog",
+		"rss": "https://blog.es3n1n.eu/posts/index.xml"
 	}
 ]
