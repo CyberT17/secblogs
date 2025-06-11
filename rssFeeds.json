@@ -530,5 +530,9 @@
 	{
 		"name": "Tim Blazytko",
 		"rss": "https://www.synthesis.to/feed.xml"
-	}	
+	},
+	{
+		"name": "Binarly",
+		"rss": "http://www.binarly.io/blog/rss.xml"
+	}
 ]
