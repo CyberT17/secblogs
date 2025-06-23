@@ -104,10 +104,11 @@ func readRssFeeds() {
 				}
 
 				var dateStr = item.PublishedParsed.Format(time.DateOnly)
+				var referredLink = item.Link + "?utm_source=securityblogs-xyz"
 
 				singleBlog := Blogs{
 					Date:  dateStr,
-					Url:   item.Link,
+					Url:   referredLink,
 					Title: item.Title,
 					Blog:  site.NAME,
 				}
