@@ -534,5 +534,9 @@
 	{
 		"name": "Binarly",
 		"rss": "http://www.binarly.io/blog/rss.xml"
+	},
+	{
+		"name": "Searchlight Cyber Research",
+		"rss": "https://slcyber.io/assetnote-security-research-center/feed/"
 	}
 ]
