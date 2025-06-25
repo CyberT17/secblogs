@@ -538,5 +538,9 @@
 	{
 		"name": "Searchlight Cyber Research",
 		"rss": "https://slcyber.io/assetnote-security-research-center/feed/"
+	},
+	{
+		"name": "Almond Offensive Security Blog",
+		"rss": "https://offsec.almond.consulting/feeds/all.rss.xml"
 	}
 ]
