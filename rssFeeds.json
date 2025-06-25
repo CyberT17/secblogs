@@ -542,5 +542,9 @@
 	{
 		"name": "Almond Offensive Security Blog",
 		"rss": "https://offsec.almond.consulting/feeds/all.rss.xml"
+	},
+	{
+		"name": "Teleport Blog",
+		"rss": "https://goteleport.com/blog/rss.xml"
 	}
 ]
