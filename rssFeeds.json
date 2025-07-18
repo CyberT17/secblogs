@@ -558,5 +558,9 @@
 	{
 		"name": "RME-DisCo Research Group",
 		"rss": "https://reversea.me/index.php/feed/"
+	},
+	{
+		"name": "Onyphe",
+		"rss": "https://blog.onyphe.io/en/feed/"
 	}
 ]
