@@ -546,5 +546,9 @@
 	{
 		"name": "Teleport Blog",
 		"rss": "https://goteleport.com/blog/rss.xml"
+	},
+	{
+		"name": "Black Hills Info Sec",
+		"rss": "https://www.blackhillsinfosec.com/feed/"
 	}
 ]
