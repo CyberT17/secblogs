@@ -554,5 +554,9 @@
 	{
 		"name": "Greynoise",
 		"rss": "https://www.greynoise.io/blog/rss.xml"
+	},
+	{
+		"name": "RME-DisCo Research Group",
+		"rss": "https://reversea.me/index.php/feed/"
 	}
 ]
