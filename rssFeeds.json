@@ -550,5 +550,9 @@
 	{
 		"name": "Black Hills Info Sec",
 		"rss": "https://www.blackhillsinfosec.com/feed/"
+	},
+	{
+		"name": "Greynoise",
+		"rss": "https://www.greynoise.io/blog/rss.xml"
 	}
 ]
