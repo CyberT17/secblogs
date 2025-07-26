@@ -578,5 +578,9 @@
 	{
 		"name": "Eye Security",
 		"rss": "https://www.eye.security/blog/rss.xml"
+	},
+	{
+		"name": "Viettel Cyber Security",
+		"rss": "https://blog.viettelcybersecurity.com/rss/"
 	}
 ]
