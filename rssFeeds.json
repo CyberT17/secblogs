@@ -582,5 +582,9 @@
 	{
 		"name": "Viettel Cyber Security",
 		"rss": "https://blog.viettelcybersecurity.com/rss/"
+	},
+	{
+		"name": "Mateusz Lewczak Blog",
+		"rss": "https://leftarcode.com/feed.xml"
 	}
 ]
