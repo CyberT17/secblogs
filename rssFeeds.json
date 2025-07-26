@@ -586,5 +586,9 @@
 	{
 		"name": "Mateusz Lewczak Blog",
 		"rss": "https://leftarcode.com/feed.xml"
+	},
+	{
+		"name": "PT SWARM",
+		"rss": "https://swarm.ptsecurity.com/feed/"
 	}
 ]
