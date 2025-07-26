@@ -590,5 +590,9 @@
 	{
 		"name": "PT SWARM",
 		"rss": "https://swarm.ptsecurity.com/feed/"
+	},
+	{
+		"name": "Hybrid Analysis Blog",
+		"rss": "https://hybrid-analysis.blogspot.com/feeds/posts/default?alt=rss"
 	}
 ]
