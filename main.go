@@ -104,10 +104,11 @@ func readRssFeeds() {
 				}
 
 				var dateStr = item.PublishedParsed.Format(time.DateOnly)
+				var datetimeStr = item.PublishedParsed.Format(time.DateTime)
 				var referredLink = item.Link + "?utm_source=securityblogs-xyz"
 
 				singleBlog := Blogs{
-					Date:  dateStr,
+					Date:  datetimeStr,
 					Url:   referredLink,
 					Title: item.Title,
 					Blog:  site.NAME,
@@ -127,6 +128,19 @@ func readRssFeeds() {
 	wg.Wait()
 	var daten []DateBlogs
 	for key, val := range m {
+
+		sort.Slice(val, func(i, j int) bool {
+			layout := "2006-01-02 15:04:05"
+			dateI, errI := time.Parse(layout, val[i].Date)
+			dateJ, errJ := time.Parse(layout, val[j].Date)
+
+			if errI != nil || errJ != nil {
+				return false
+			}
+
+			return dateI.After(dateJ)
+		})
+
 		singleDateBlog := DateBlogs{
 			Date:  key,
 			Blogs: val,
