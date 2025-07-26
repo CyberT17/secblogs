@@ -566,5 +566,17 @@
 	{
 		"name": "Héber Júlio",
 		"rss": "https://medium.com/feed/@heberjulio65"
+	},
+	{
+		"name": "Eye Security",
+		"rss": "https://www.eye.security/cybersecurity-learning-hub/rss.xml"
+	},
+	{
+		"name": "Eye Security Research",
+		"rss": "https://research.eye.security/feed/"
+	},
+	{
+		"name": "Eye Security",
+		"rss": "https://www.eye.security/blog/rss.xml"
 	}
 ]
