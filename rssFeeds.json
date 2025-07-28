@@ -309,7 +309,7 @@
 	},
 	{
 		"name": "Voidstar Security Research Blog",
-		"rss": "https://voidstarsec.com/blog/feed.xml"
+		"rss": "https://voidstarsec.com/blog/feeds/all.atom.xml"
 	},
 	{
 		"name": "Daniel Plohmann's Blog",
@@ -353,7 +353,7 @@
 	},
 	{
 		"name": "Bored Pentester",
-		"rss": "https://boredpentester.com/feed?format=rss"
+		"rss": "https://boredpentester.com/feed/"
 	},
 	{
 		"name": "Dark Navy",
