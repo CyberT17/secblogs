@@ -594,5 +594,9 @@
 	{
 		"name": "Hybrid Analysis Blog",
 		"rss": "https://hybrid-analysis.blogspot.com/feeds/posts/default?alt=rss"
+	},
+	{
+		"name": "ISC SANS",
+		"rss": "https://isc.sans.edu/rssfeed.xml"
 	}
 ]
