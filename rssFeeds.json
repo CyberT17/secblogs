@@ -598,5 +598,9 @@
 	{
 		"name": "ISC SANS",
 		"rss": "https://isc.sans.edu/rssfeed.xml"
+	},
+	{
+		"name": "Cyata",
+		"rss": "https://cyata.ai/feed/"
 	}
 ]
