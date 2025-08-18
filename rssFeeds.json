@@ -602,5 +602,9 @@
 	{
 		"name": "Cyata",
 		"rss": "https://cyata.ai/feed/"
+	},
+	{
+		"name": "Eaton Works",
+		"rss": "https://eaton-works.com/feed/"
 	}
 ]
