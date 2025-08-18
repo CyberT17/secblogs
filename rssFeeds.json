@@ -606,5 +606,9 @@
 	{
 		"name": "Eaton Works",
 		"rss": "https://eaton-works.com/feed/"
+	},
+	{
+		"name": "Malwr Analysis",
+		"rss": "https://malwr-analysis.com/feed/"
 	}
 ]
