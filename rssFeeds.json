@@ -622,5 +622,9 @@
 	{
 		"name": "dgl",
 		"rss": "https://dgl.cx/feed"
+	},
+	{
+		"name": "Doyensec",
+		"rss": "https://blog.doyensec.com/atom.xml"
 	}
 ]
