@@ -614,5 +614,10 @@
 	{
 		"name": "Varonis",
 		"rss": "https://www.varonis.com/blog/rss.xml"
+	},
+	{
+		"name": "Caesar Creek Software",
+		"rss": "https://cc-sw.com/feed/"
 	}
+
 ]
