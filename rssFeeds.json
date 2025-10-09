@@ -630,5 +630,9 @@
 	{
 		"name": "Himanshu Anand",
 		"rss": "https://blog.himanshuanand.com/index.xml"
+	},
+	{
+		"name": "Eaton Works",
+		"rss": "https://eaton-works.com/feed/"
 	}
 ]
