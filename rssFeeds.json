@@ -642,5 +642,9 @@
 	{
 		"name": "GMO Flatt Security Research",
 		"rss": "https://flatt.tech/research/index.xml"
+	},
+	{
+		"name": "Joe Dillon",
+		"rss": "https://outurnate.com/feeds/feed.xml"
 	}
 ]
