@@ -626,5 +626,9 @@
 	{
 		"name": "Doyensec",
 		"rss": "https://blog.doyensec.com/atom.xml"
+	},
+	{
+		"name": "Himanshu Anand",
+		"rss": "https://blog.himanshuanand.com/index.xml"
 	}
 ]
