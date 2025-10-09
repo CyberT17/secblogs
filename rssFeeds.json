@@ -638,5 +638,9 @@
 	{
 		"name": "HardenedVault",
 		"rss": "https://hardenedvault.net/blog/index.xml"
+	},
+	{
+		"name": "GMO Flatt Security Research",
+		"rss": "https://flatt.tech/research/index.xml"
 	}
 ]
