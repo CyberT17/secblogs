@@ -634,5 +634,9 @@
 	{
 		"name": "Eaton Works",
 		"rss": "https://eaton-works.com/feed/"
+	},
+	{
+		"name": "HardenedVault",
+		"rss": "https://hardenedvault.net/blog/index.xml"
 	}
 ]
