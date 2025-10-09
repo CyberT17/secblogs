@@ -646,5 +646,9 @@
 	{
 		"name": "Joe Dillon",
 		"rss": "https://outurnate.com/feeds/feed.xml"
+	},
+	{
+		"name": "RCE Security",
+		"rss": "https://www.rcesecurity.com/feed/"
 	}
 ]
