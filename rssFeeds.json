@@ -650,5 +650,9 @@
 	{
 		"name": "RCE Security",
 		"rss": "https://www.rcesecurity.com/feed/"
+	},
+	{
+		"name": "PacketSmith",
+		"rss": "https://packetsmith.ca/feed/"
 	}
 ]
