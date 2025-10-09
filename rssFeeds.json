@@ -610,5 +610,9 @@
 	{
 		"name": "Malwr Analysis",
 		"rss": "https://malwr-analysis.com/feed/"
+	},
+	{
+		"name": "Varonis",
+		"rss": "https://www.varonis.com/blog/rss.xml"
 	}
 ]
