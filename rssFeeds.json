@@ -618,6 +618,9 @@
 	{
 		"name": "Caesar Creek Software",
 		"rss": "https://cc-sw.com/feed/"
+	},
+	{
+		"name": "dgl",
+		"rss": "https://dgl.cx/feed"
 	}
-
 ]
