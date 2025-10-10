@@ -654,5 +654,9 @@
 	{
 		"name": "PacketSmith",
 		"rss": "https://packetsmith.ca/feed/"
+	},
+	{
+		"name": "Joshua Rogers",
+		"rss": "https://joshua.hu/feed.xml"
 	}
 ]
