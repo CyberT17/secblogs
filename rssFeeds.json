@@ -658,5 +658,9 @@
 	{
 		"name": "Joshua Rogers",
 		"rss": "https://joshua.hu/feed.xml"
+	},
+	{
+		"name": "Escape DAST",
+		"rss": "https://escape.tech/blog/rss"
 	}
 ]
