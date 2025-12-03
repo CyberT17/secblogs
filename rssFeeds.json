@@ -662,5 +662,9 @@
 	{
 		"name": "Escape DAST",
 		"rss": "https://escape.tech/blog/rss"
+	},
+	{
+		"name": "Alex Schapiro",
+		"rss": "https://alexschapiro.com/feed.xml"
 	}
 ]
