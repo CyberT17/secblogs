@@ -666,5 +666,17 @@
 	{
 		"name": "Alex Schapiro",
 		"rss": "https://alexschapiro.com/feed.xml"
+	},
+	{
+		"name": "Francesco Pompo",
+		"rss": "https://francesco.cc/index.xml"
+	},
+	{
+		"name": "Rosecurify",
+		"rss": "https://rosecurify.com/feed/feed.xml"
+	},
+	{
+		"name": "Zero Salarium",
+		"rss": "https://www.zerosalarium.com/feeds/posts/default?alt=rss"
 	}
 ]
