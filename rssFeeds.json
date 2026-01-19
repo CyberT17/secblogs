@@ -678,5 +678,9 @@
 	{
 		"name": "Zero Salarium",
 		"rss": "https://www.zerosalarium.com/feeds/posts/default?alt=rss"
+	},
+	{
+		"name": "Sean Heelan",
+		"rss": "https://sean.heelan.io/feed/"
 	}
 ]
