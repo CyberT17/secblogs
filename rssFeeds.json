@@ -690,5 +690,13 @@
 	{
 		"name": "Aikido",
 		"rss": "https://www.aikido.dev/blog/rss.xml"
+	},
+	{
+		"name": "Buchodi",
+		"rss": "https://www.buchodi.com/rss/"
+	},
+	{
+		"name": "Paultendo",
+		"rss": "https://paultendo.github.io/rss.xml"
 	}
 ]
