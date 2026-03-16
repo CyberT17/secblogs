@@ -682,5 +682,9 @@
 	{
 		"name": "Sean Heelan",
 		"rss": "https://sean.heelan.io/feed/"
+	},
+	{
+		"name": "Artem Golubin",
+		"rss": "https://rushter.com/blog/feed/"
 	}
 ]
