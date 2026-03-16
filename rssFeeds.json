@@ -686,5 +686,9 @@
 	{
 		"name": "Artem Golubin",
 		"rss": "https://rushter.com/blog/feed/"
+	},
+	{
+		"name": "Aikido",
+		"rss": "https://www.aikido.dev/blog/rss.xml"
 	}
 ]
