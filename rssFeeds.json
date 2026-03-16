@@ -698,5 +698,9 @@
 	{
 		"name": "Paultendo",
 		"rss": "https://paultendo.github.io/rss.xml"
+	},
+	{
+		"name": "kqx",
+		"rss": "https://kqx.io/post/index.xml"
 	}
 ]
