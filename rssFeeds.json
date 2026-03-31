@@ -702,5 +702,9 @@
 	{
 		"name": "kqx",
 		"rss": "https://kqx.io/post/index.xml"
+	},
+	{
+		"name": "Step Security",
+		"rss": "https://www.stepsecurity.io/blog/rss.xml"
 	}
 ]
