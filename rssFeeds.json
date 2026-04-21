@@ -710,5 +710,9 @@
 	{
 		"name": "Filippo Valsorda",
 		"rss": "https://words.filippo.io/rss/"
+	},
+	{
+		"name": "ZeroPath",
+		"rss": "https://zeropath.com/blog/rss.xml"
 	}
 ]
