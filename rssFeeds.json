@@ -706,5 +706,9 @@
 	{
 		"name": "Step Security",
 		"rss": "https://www.stepsecurity.io/blog/rss.xml"
+	},
+	{
+		"name": "Filippo Valsorda",
+		"rss": "https://words.filippo.io/rss/"
 	}
 ]
