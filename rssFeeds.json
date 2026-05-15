@@ -714,5 +714,61 @@
 	{
 		"name": "ZeroPath",
 		"rss": "https://zeropath.com/blog/rss.xml"
+	},
+	{
+		"name": "JFrog",
+		"rss": "https://jfrog.com/blog/tag/security-research/feed/"
+	},
+	{
+		"name": "GitGuardian",
+		"rss": "https://blog.gitguardian.com/rss/"
+	},
+	{
+		"name": "Nick Mykhailyshyn",
+		"rss": "https://whoareme.com/rss.xml"
+	},
+	{
+		"name": "Jericho",
+		"rss": "https://jericho.blog/feed/"
+	},
+	{
+		"name": "MIT Technology Review",
+		"rss": "https://www.technologyreview.com/feed/"
+	},
+	{
+		"name": "Resecurity",
+		"rss": "https://www.resecurity.com/feed"
+	},
+	{
+		"name": "Wiz",
+		"rss": "https://www.wiz.io/feed/rss.xml"
+	},
+	{
+		"name": "Mozilla Security",
+		"rss": "https://blog.mozilla.org/en/category/privacy-security/feed/"
+	},
+	{
+		"name": "Reversemode",
+		"rss": "https://www.reversemode.com/feeds/posts/default?alt=rss"
+	},
+	{
+		"name": "Xint",
+		"rss": "https://xint.io/blog/rss"
+	},
+	{
+		"name": "Hacktron",
+		"rss": "https://www.hacktron.ai/rss.xml"
+	},
+	{
+		"name": "Include Security",
+		"rss": "https://blog.includesecurity.com/feed/"
+	},
+	{
+		"name": "ToxSec",
+		"rss": "https://www.toxsec.com/feed"
+	},
+	{
+		"name": "Socket",
+		"rss": "https://socket.dev/api/blog/feed.atom"
 	}
 ]
