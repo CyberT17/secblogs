@@ -1,5 +1,5 @@
 name: gitea-actions-build-plan
-run-name: Build ${{ gitea.run_number }} for secblogs
+run-name: Build ${{ gitea.run_id }} for secblogs
 on:
   push:
     branches:
