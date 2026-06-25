@@ -770,5 +770,17 @@
 	{
 		"name": "Socket",
 		"rss": "https://socket.dev/api/blog/feed.atom"
+	},
+	{
+		"name": "CISA Alerts & Advisories",
+		"rss": "https://www.cisa.gov/cybersecurity-advisories/all.xml"
+	},
+	{
+		"name": "CISA News",
+		"rss": "https://www.cisa.gov/news.xml"
+	},
+	{
+		"name": "CISA Blog",
+		"rss": "https://www.cisa.gov/cisa/blog.xml"
 	}
 ]
