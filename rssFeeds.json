@@ -782,5 +782,9 @@
 	{
 		"name": "CISA Blog",
 		"rss": "https://www.cisa.gov/cisa/blog.xml"
+	},
+	{
+		"name": "mez0 Blog",
+		"rss": "https://mez0.cc/rss.xml"
 	}
 ]
