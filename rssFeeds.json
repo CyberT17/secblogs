@@ -786,5 +786,25 @@
 	{
 		"name": "mez0 Blog",
 		"rss": "https://mez0.cc/rss.xml"
+	},
+	{
+		"name": "Nebula Security",
+		"rss": "https://nebusec.ai/rss.xml"
+	},
+	{
+		"name": "zerotistic",
+		"rss": "https://zerotistic.blog/rss.xml"
+	},
+	{
+		"name": "Yunus Aydın",
+		"rss": "https://aydinnyunus.github.io/feed.xml"
+	},
+	{
+		"name": "Ali Yazdani",
+		"rss": "https://asecurityengineer.com/rss.xml"
+	},
+	{
+		"name": "Scott Helme",
+		"rss": "https://scotthelme.co.uk/rss/"
 	}
 ]
