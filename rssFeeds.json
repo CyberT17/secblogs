@@ -806,5 +806,9 @@
 	{
 		"name": "Scott Helme",
 		"rss": "https://scotthelme.co.uk/rss/"
+	},
+	{
+		"name": "HN Security",
+		"rss": "https://hnsecurity.it/feed/"
 	}
 ]
