@@ -814,5 +814,17 @@
 	{
 		"name": "Accomplish",
 		"rss": "https://accomplish.ai/blog/rss.xml"
+	},
+	{
+		"name": "Eval Blog",
+		"rss": "https://eval.blog/rss.xml"
+	},
+	{
+		"name": "XBOW",
+		"rss": "https://xbow.com/blog/feed.xml"
+	},
+	{
+		"name": "Project Discovery",
+		"rss": "https://projectdiscovery.io/rss.xml"
 	}
 ]
