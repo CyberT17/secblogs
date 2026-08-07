@@ -826,5 +826,13 @@
 	{
 		"name": "Project Discovery",
 		"rss": "https://projectdiscovery.io/rss.xml"
+	},
+	{
+		"name": "ndevtk",
+		"rss": "https://ndevtk.github.io/writeups/feed.xml"
+	},
+	{
+		"name": "shubs",
+		"rss": "https://shubs.io/rss/"
 	}
 ]
