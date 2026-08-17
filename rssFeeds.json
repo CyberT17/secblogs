@@ -834,5 +834,29 @@
 	{
 		"name": "shubs",
 		"rss": "https://shubs.io/rss/"
+	},
+	{
+		"name": "Simon Koeck",
+		"rss": "https://simonkoeck.com/rss.xml"
+	},
+	{
+		"name": "Elttam",
+		"rss": "https://www.elttam.com/blog/rss.xml"
+	},
+	{
+		"name": "Project Black",
+		"rss": "https://projectblack.io/blog/rss/"
+	},
+	{
+		"name": "Naveen Srinivasan",
+		"rss": "https://naveensrinivasan.com/posts/index.xml"
+	},
+	{
+		"name": "Mehmet Ince",
+		"rss": "https://mehmetince.net/feed/"
+	},
+	{
+		"name": "core-jmp",
+		"rss": "https://core-jmp.org/feed/"
 	}
 ]
