@@ -1,7 +1,7 @@
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
-github.com/mmcdole/gofeed v1.4.1 h1:m7vd4YAukLvoqUQghaILKbqUquHyZq1jBYkeCke/Z3c=
-github.com/mmcdole/gofeed v1.4.1/go.mod h1:X5x1PyeibJi152VEya0AsV+PW4daYmCD4LJaJbeFkcs=
+github.com/mmcdole/gofeed v1.4.2 h1:XFFOtsNNZg+zudjtMXb8BI0J/YdnSIGfjEpPgPnZib0=
+github.com/mmcdole/gofeed v1.4.2/go.mod h1:X5x1PyeibJi152VEya0AsV+PW4daYmCD4LJaJbeFkcs=
 github.com/mmcdole/goxpp/v2 v2.0.0 h1:HrSCflxerUEqZQNq3u7ldtmE/XkwnTx4Zpq2DW4i5rQ=
 github.com/mmcdole/goxpp/v2 v2.0.0/go.mod h1:CUduYMnO9JB6Z/uqDn9Ormk/r8E9BsLQxHPWDZ961Os=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
