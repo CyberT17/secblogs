@@ -858,5 +858,17 @@
 	{
 		"name": "core-jmp",
 		"rss": "https://core-jmp.org/feed/"
+	},
+	{
+		"name": "Voorivex Team",
+		"rss": "https://blog.voorivex.team/rss.xml"
+	},
+	{
+		"name": "Joseph Thacker",
+		"rss": "https://josephthacker.com/feed.xml"
+	},
+	{
+		"name": "Semgrep",
+		"rss": "https://semgrep.dev/blog/rss/"
 	}
 ]
