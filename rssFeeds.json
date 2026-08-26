@@ -145,7 +145,7 @@
 	},
 	{
 		"name": "Sicuranext Blog",
-		"rss": "https://blog.sicuranext.com/rss/"
+		"rss": "https://blog.sicuranext.com/rss"
 	},
 	{
 		"name": "Bishop Fox Security",
@@ -505,7 +505,7 @@
 	},
 	{
 		"name": "ReversingLabs",
-		"rss": "https://blog.reversinglabs.com/blog/rss.xml"
+		"rss": "https://www.reversinglabs.com/blog/rss.xml"
 	},
 	{
 		"name": "Evan Connelly",
@@ -633,7 +633,7 @@
 	},
 	{
 		"name": "Eaton Works",
-		"rss": "https://eaton-works.com/feed/"
+		"rss": "https://eaton-works.com/feed.atom"
 	},
 	{
 		"name": "HardenedVault",
@@ -870,5 +870,9 @@
 	{
 		"name": "Semgrep",
 		"rss": "https://semgrep.dev/blog/rss/"
+	},
+	{
+		"name": "Silverfort",
+		"rss": "https://www.silverfort.com/feed/"
 	}
 ]
