@@ -46,6 +46,13 @@ func check(e error) {
 	}
 }
 
+func isWithinDateRange(published *time.Time, pastCutoff, futureCutoff time.Time) bool {
+	if published == nil || !published.After(pastCutoff) || published.After(futureCutoff) {
+		return false
+	}
+	return true
+}
+
 func main() {
 	readRssFeeds()
 }
@@ -78,7 +85,9 @@ func readRssFeeds() {
 
 	m := make(map[string][]Blogs)
 
-	cutoff := time.Now().AddDate(0, 0, -7)
+	now := time.Now()
+	pastCutoff := now.AddDate(0, 0, -7)
+	futureCutoff := now.AddDate(0, 0, 7)
 
 	feedsLength := len(feeds)
 	var wg sync.WaitGroup
@@ -99,7 +108,7 @@ func readRssFeeds() {
 			}
 
 			for _, item := range feed.Items {
-				if item.PublishedParsed == nil || !item.PublishedParsed.After(cutoff) {
+				if !isWithinDateRange(item.PublishedParsed, pastCutoff, futureCutoff) {
 					continue
 				}
 
