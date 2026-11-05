@@ -874,5 +874,9 @@
 	{
 		"name": "Silverfort",
 		"rss": "https://www.silverfort.com/feed/"
+	},
+	{
+		"name": "LogTriage Research",
+		"rss": "https://logtriage.app/reports/rss.xml"
 	}
 ]
